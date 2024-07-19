@@ -22,3 +22,7 @@ vim.g.pyindent_open_paren = vim.opt.shiftwidth
 
 
 vim.keymap.set("x", "p", "P")
+
+vim.opt.hlsearch = true
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
