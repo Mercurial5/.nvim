@@ -9,11 +9,7 @@ require('telescope').setup{
 require("mercurial")
 
 local set = vim.opt
-set.tabstop = 4
-set.softtabstop = 4
-set.shiftwidth = 4
 set.clipboard = "unnamedplus"
-set.expandtab = true
 
 vim.wo.number = true
 vim.wo.relativenumber = true
